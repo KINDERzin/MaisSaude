@@ -4,58 +4,10 @@
              x:Class="Mais_Saude.MainPage"
              Shell.NavBarIsVisible="False"
              BackgroundColor="#ffffff">
-       <ScrollView>
-   <Frame BackgroundColor="#ffffff"
-          BorderColor="#2977af"
-          Margin="50, 20">
-       <Grid>
-              <Grid.RowDefinitions>
-                     <RowDefinition Height="250"/>
-                     <RowDefinition Height="50"/>
-                     <RowDefinition Height="AUTO"/>
-                     <RowDefinition Height="AUTO"/>
-                     <RowDefinition Height="AUTO"/>
-                     <RowDefinition Height="AUTO"/>
-                     <RowDefinition Height="80"/>
-              </Grid.RowDefinitions>
-
-              <Image Source="mais_saude.png"   
-                     Grid.Row="0"/>
-              
-              <Label Text="LOGIN"
-                     FontSize="30"
-                     HorizontalTextAlignment="Center"
-                     TextColor="Black"
-                     Grid.Row="1"/>
-
-              <Label Text="CPF:"
-                     TextColor="Black"   
-                     Grid.Row="2"
-                     Margin="10, 0"/>
-
-              <Entry Placeholder="Digite seu CPF aqui"
-                     TextColor="Black"
-                     Grid.Row="3"/>
-
-              <Label Text="Senha:"
-                     TextColor="Black"  
-                     Grid.Row="4"
-                     Margin="10, 5"/>
-
-              <Entry Placeholder="Digite senha aqui aqui"
-                     TextColor="Black"
-                     Keyboard="Text"
-                     Grid.Row="5"/>
-
-              <Button Text="Entrar"
-                      TextColor="Black"  
-                      BorderColor="#2977af"
-                      BorderWidth="1"
-                      Margin="50, 20, 50, 10"
-                      Grid.Row="6"
-                      VerticalOptions="End"/>
-
-       </Grid>
-   </Frame>
-   </ScrollView>
+       
+   <Label Text="Próxima tela"
+          TextColor="Black"
+          HorizontalOptions="Center"
+          VerticalOptions="Center"/>
+       
 </ContentPage>

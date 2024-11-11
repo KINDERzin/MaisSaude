@@ -1,12 +1,11 @@
-﻿namespace Mais_Saude;
+namespace Mais_Saude;
 
-public partial class MainPage : ContentPage
+public partial class MainPage
 {
-	public MainPage()
-	{
-		InitializeComponent();
-	}
+   public MainPage()
+   {
+      InitializeComponent();
+   }
 
-	
+
 }
-
